@@ -1,0 +1,71 @@
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.liked {
+  color: red;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(9, 8, 8, 0.06);
+  height: 90px;
+  width: 100%;
+  z-index: 999;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+.navbar li {
+  list-style: none;
+  padding: 0 25px;
+  
+}
+.navbar l1 {
+  margin-left: 55%;
+}
+.navbar li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 650;
+  color: rgb(44, 41, 41);
+  transition: 0.3s ease;
+}
+.navbar li a:hover{
+  color: black;
+}
+.navbar h3 {
+  color: #007dbc;
+  width: 20px;
+}
+
+/* feature */
+*{
+  box-sizing: border-box;
+  
+}
+b{
+  color: #007dbc;
+  font-size:30px;
+}
+
+
+p{
+  font-size:17px;
+}
+.div1{
+  font-family: "Times New Roman", Times, serif;
+  color:grey;
+  font-size:30px;
+}
+.card
+{
+  max-width: fit-content;
+}
